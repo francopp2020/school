@@ -1,0 +1,63 @@
+/* TOP BAR */
+#topbar {
+	display: grid;
+	grid-template-columns: repeat(9, 1fr);
+	padding-bottom: 25px;
+	padding-top: 25px;
+	border-bottom: 1px solid silver;
+}
+
+.logo {
+	grid-column: 1 ;
+	padding-left: 50px;
+}
+
+.logo img {
+	height: 60px;
+}
+
+.buttons {
+	grid-column: 8/10;
+	align-self: end;
+	justify-self: start;
+}
+
+.buttons button {
+	border: 2px solid;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.buttons button:hover {
+	border: 2px black solid;
+	background-color: dodgerblue;
+	color: white;
+}
+
+.buttons button:active {
+	background-color: dodgerblue;
+	opacity: 0.7;
+}
+
+
+/* MENU */
+
+nav {
+	display: flex;
+	align-items: stretch;
+	text-align: center;
+}
+
+nav a {
+	flex: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 20px;
+	color: gray;
+}
+
+nav a:hover {
+	color: dodgerblue;
+}

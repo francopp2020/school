@@ -1,0 +1,115 @@
+
+/* MENU */ 
+.home {
+	color: dodgerblue;
+	border-bottom: 4px solid dodgerblue;
+	font-weight: 550;
+}
+
+/* SEC 1 */ 
+#sec1 {
+	background-image: url("../img/index1.jpg");
+	height: 550px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.ss-left {
+	font-weight: bold;
+	flex: 2;
+	align-self: center;
+	color: black;
+	margin-left: 50px;
+	background-color: rgba(255,255,255,0.7);
+	padding: 20px 40px;
+	border-radius: 5px;
+}
+
+.ss-left p {
+	font-size: 28px;
+	text-align: left;
+}
+
+.ss-middle {
+	flex: 3;
+}
+
+.ss-right {
+	flex: 3;
+	color: black;
+	border: 3px solid dodgerblue;
+	background-color: white;
+	border-radius: 25px;
+	align-self: center;
+	margin-right: 50px;
+	padding: 30px;
+}
+
+.ss-right input {
+	border-radius: 	10px;
+	padding: 	10px;
+	background-color: 	white;
+	margin-bottom: 	5px;
+	border-color: 	dodgerblue;
+}
+
+.ss-right p {
+	font-size: 	18px;
+}
+
+.ss-right h3 {
+	font-size: 	25px;
+}
+
+/* SEC 2 */ 
+
+#sec2 button {
+  background-color: dodgerblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;}
+
+#sec2 button:hover {
+	opacity: 0.8;
+}
+
+/* SEC 3 */
+#sec3 {
+}
+
+
+.grid3 {
+	display: grid;
+	grid-template-columns: 	3fr 1fr;
+	column-gap: 25px;
+}
+
+.grid3 img {
+	grid-column: 4;
+	height: 	250px;
+}
+
+.grid3 p {
+	grid-column: 1/3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

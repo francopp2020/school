@@ -1,0 +1,23 @@
+/* MENU */
+.about {
+	color: dodgerblue;
+	border-bottom: 4px solid dodgerblue;
+	font-weight: 550;
+}
+
+/* SEC1 */
+#sec1 {
+}
+
+/* SEC2 */
+
+#sec2 {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+}
+
+#sec2 img {
+	width: 340px;
+	padding-top: 80px;
+	margin-right: 50px;
+}

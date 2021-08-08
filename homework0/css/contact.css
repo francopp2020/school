@@ -1,0 +1,39 @@
+/* MENU */
+.contact {
+	color: dodgerblue;
+	border-bottom: 4px solid dodgerblue;
+	font-weight: 550;
+}
+
+
+/* SEC1 */
+#sec1 {
+	background-image: url("../img/index1.jpg");
+}
+
+/* SEC2 */
+
+#sec2 {
+}
+.formsec2 {
+	padding: 80px 10%;
+	background-color: dodgerblue;
+	border: 3px black solid;
+	margin: 0;
+	border-radius:10px;
+}
+
+input[type=text], input[type=email], textarea, select {
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+input[type=submit] {
+	width: 40%;
+	padding: 12px 20px;
+	background-color: white;
+	color: dodgerblue;
+	font-size: 18px;
+}
+

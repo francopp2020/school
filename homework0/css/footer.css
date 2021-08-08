@@ -1,0 +1,53 @@
+	footer {
+	margin: 50px;
+	border-top: 5px dodgerblue solid;
+}
+
+.logo {
+	height: 60px;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+#gridfooter {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.copyright {
+	grid-column: 1;
+}
+
+.servicesfooter {
+	grid-column: 2;
+}
+
+.contactinfo {
+	grid-column: 5;
+	text-align: right;
+}
+
+.contactinfo p {
+	margin: 0;
+	line-height: 22px;
+	padding: 0;
+}
+
+.contactinfo p:first-child {
+	font-size: 19px;
+	font-weight: 550;
+}
+
+.copyright a, .servicesfooter a {
+	display: block;
+	color: rgba(0,0,0,0.8);
+	padding-bottom: 5px;
+}
+
+.copyright a:hover, .servicesfooter a:hover {
+	color: rgba(0,0,0,0.4);
+}
+
+h2 {
+	font-size: 	19px;
+}

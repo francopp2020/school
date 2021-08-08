@@ -1,0 +1,24 @@
+		/* SEC 0 SERVICES AREA */
+#sec0 {
+	display: flex;
+	border-bottom: 1px black solid;
+	background-color: rgba(0,0,0,0.9);
+}
+
+#sec0 a {
+	flex: 1;
+	color: white;
+	padding: 15px 0px 10px 0px;
+	font-size: 15px;
+	text-align: center;
+	margin: 0;
+}
+
+#sec0 a:last-child {
+	border-right: none;
+	padding: 5px 40px 10px 40px;
+}
+
+#sec0 a:hover {
+	opacity: 0.7;
+}
