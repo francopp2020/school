@@ -1,0 +1,48 @@
+
+/* SEC1 */
+#sec1 {
+	height: 350px;
+	background-image: url('../img/head2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#sec2 {
+	margin: 5%;
+}
+
+/* sec3 */
+
+#sec3 {
+	margin: 5% 20%;
+	background-color: rgba(0, 0, 0, 2%);
+}
+
+.contenedor {
+	height: 450px;
+}
+
+
+#sec3 h1, #sec2 h1 {
+	font-family: "Uchen",Georgia,serif;
+	text-align: left;
+	font-size: 29px;
+	line-height: 38px;
+	margin: 10px;
+	color: #555;
+	text-transform: none;
+}
+
+#sec3 h1 {
+	text-transform: uppercase;
+}
+
+#sec3 p {
+	font-size: 18px;
+}
+
+#sec3 img {
+	width: 140px;
+	margin-right: 50px;
+	float: left;
+}

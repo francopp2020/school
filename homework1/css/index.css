@@ -1,0 +1,137 @@
+/* HEADER */
+#sec1 {
+	background-image: url('../img/bg-head.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 597px;
+}
+
+#sec1 h1, #sec1 h2 {
+	text-align: center;
+	color: whitesmoke;
+	text-shadow: 0 0 30px rgb(0 0 0 / 70%);
+	font-family: "Kelly Slab";
+}
+
+#sec1 h1 {
+	padding-top: 180px;
+	font-size: 80px;
+}
+
+#sec1 h2 {
+	font-size: 55px;
+}
+
+/* SEC 2 */ 
+
+#sec2 {
+	background-color: rgba(0, 42, 70, 1.0);
+	padding-bottom: 168px;
+	padding-top: 20px;
+}
+
+#sec2 h1 {
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	padding-top: 85px;
+}
+
+#sec2 p {
+	color: white;
+	text-align: center;
+	font-size: 28px;
+	padding: 5px 15%;
+}
+
+#sec2 button {
+	padding: 15px 25px;
+	text-align: center;
+	margin-left: 43%;
+	color: white;
+	background-color: darkred;
+	opacity: 0.8;
+	font-size: 22px;
+}
+
+
+/* SEC 3 */
+
+#sec3 {
+	background-color: whitesmoke;
+	padding-bottom: 200px;
+}
+
+#sec3 h1 {
+	color: rgba(0, 42, 70, 1.0);
+	text-align: center;
+	font-size: 60px;
+	padding-top: 85px;
+	padding-bottom: 10px;
+	text-shadow: 0 0 2px rgb(0 0 0 / 80%);
+}
+
+#sec3 h2 {
+	color: rgba(0, 42, 70, 1.0);
+	text-align: center;
+	font-size: 28px;
+	padding: 5px 15%;
+}
+
+#sec3grid {
+	display: grid;
+	gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 2% 5%;
+}
+
+#sec3 img {
+	height: 275px;
+}
+
+.sec3gridcont {
+	padding: 50px 20px;
+	background-color: rgba(220, 220, 220, 0.4);
+	border-collapse: collapse;
+}
+
+.sec3gridcont:hover {
+	opacity: 0.7;
+}
+/* SEC 4 */
+#sec4 {
+	background-color: rgba(0, 42, 70, 0.2);
+	padding-bottom: 120px;
+}
+
+#sec4 h1 {
+	padding-top: 50px;
+	color: rgba(0, 42, 70, 1.0);
+	text-align: center;
+	font-size: 80px;
+	padding-top: 85px;
+	padding-bottom: 40px;
+	text-shadow: 0 0 1px rgb(0 0 0 / 80%);
+}
+
+#sec4 h3 {
+	color: rgba(0, 42, 70, 0.8);
+	font-size: 6.875rem;
+	text-align: center;
+}
+
+#sec4 h4 {
+	color: rgba(0, 42, 70, 1.0);
+	text-align: center;
+	font-size: 28px;
+	padding: 5px 15%;
+}
+
+#flexbox {
+	display: flex;
+	margin: 10px 10% 10px 10%;
+}
+
+#flex1, #flex2, #flex3 {
+	flex: 1;
+}

@@ -1,0 +1,36 @@
+
+/* SEC1 */
+#sec1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#gridleft {
+	background-color: whitesmoke;
+	padding: 250px 150px 0px 100px;
+}
+
+#gridleft h1 {
+	font-size: 56px;
+	font-weight: 400;
+}
+
+#gridleft p {
+	font-size: 26px;
+	justify-content: none;
+}
+
+#sec1 img {
+	height: 800px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* SEC2 */
+
+#sec2 {
+	background-color: rgba(0, 42, 70, 0.7);
+	padding: 100px 20%;
+}
